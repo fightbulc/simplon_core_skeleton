@@ -1,0 +1,21 @@
+<?php
+/**
+ * @var FlashMessage $flash
+ * @var Locale $locale
+ * @var Device $device
+ *
+ * @var string $content
+ */
+use App\Components\Contents\ContentsRoutes;
+use Simplon\Core\Views\FlashMessage;
+use Simplon\Device\Device;
+use Simplon\Locale\Locale;
+
+?>
+<div id="contents-component">
+    <?= $content ?>
+
+    <div style="margin-top:30px">
+        <a href="<?= ContentsRoutes::toItems() ?>"><?= $locale->get('reload-items-anchor-label') ?></a>
+    </div>
+</div>

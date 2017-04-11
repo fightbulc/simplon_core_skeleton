@@ -1,0 +1,112 @@
+body {
+  background-color: #F5F8FA;
+}
+
+form {
+  button.ui.primary.button {
+    background-color: #28C9C3;
+  }
+
+  button.ui.primary.button:hover {
+    background-color: #00B0A2;
+  }
+}
+
+#has-session {
+  margin-top: 30px;
+
+  .ui.container {
+    background: #fff;
+    padding: 0 30px 30px;
+    margin-bottom: 20px;
+  }
+
+  .header-left {
+    img.logo {
+      float: left;
+      display: block;
+      height: 45px;
+      margin-right: 10px;
+    }
+  }
+
+  .header-right {
+    float: right;
+
+    .button {
+      margin-top: 3px;
+    }
+  }
+
+  .flash-message {
+    text-align: center;
+  }
+
+  .section-header {
+    padding: 10px 0 20px;
+
+    h1 {
+      margin-top: -.5rem;
+      margin-bottom: 0;
+    }
+
+    h3 {
+      margin: 0 0 5px;
+      color: #999;
+    }
+
+    .right-side {
+      float: right;
+
+      .ui.button {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .section-content {
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      margin: 30px 0 15px;
+    }
+
+    p.description {
+      color: #777;
+      padding: 0 0 10px;
+    }
+
+    .listing {
+      a {
+        color: #5B5B5B;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+
+      a:hover {
+        color: #00ADA4;
+        text-decoration: none;
+      }
+
+      .item {
+        display: block;
+        background: #f9f9f9;
+        padding: 15px;
+        margin-bottom: 5px;
+      }
+
+      .item:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    form {
+      div.ui.segment:first-of-type {
+        margin-top: 0;
+        padding-top: 0;
+      }
+    }
+  }
+}

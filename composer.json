@@ -1,0 +1,13 @@
+{
+  "require": {
+    "simplon/core": "^0.2"
+  },
+  "config": {
+    "component-dir": "public/assets/vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+body {
+  font-size: 1.1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0 0 10px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.ui.basic.segment {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: inherit;
+}
+
+.ui.menu,
+.ui.button {
+  font-size: 1.1rem;
+}
+
+.ui.button[type=submit] {
+  text-transform: uppercase;
+}
+
+a.text {
+  color: #1EAEDB;
+  text-decoration: underline;
+}
+
+a.text:hover {
+  color: #0FA0CE;
+  text-decoration: underline;
+}
