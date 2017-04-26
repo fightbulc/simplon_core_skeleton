@@ -36,7 +36,7 @@ $components = [
 //
 
 $middleware = [
-    new ExceptionMiddleware(),
+    (new ExceptionMiddleware())->setIsProduction(false),
     new LocaleMiddleware(['en', 'en-us']),
     new RouteMiddleware($components),
 ];

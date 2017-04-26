@@ -58,16 +58,16 @@
         },
         {
             "name": "fightbulc/moment",
-            "version": "1.26.2",
+            "version": "1.26.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fightbulc/moment.php.git",
-                "reference": "68f3ddad3feca6d7aae5a333724401355661afbb"
+                "reference": "435f3aee1d7da2eb14e53ae93a664812c3cb18a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fightbulc/moment.php/zipball/68f3ddad3feca6d7aae5a333724401355661afbb",
-                "reference": "68f3ddad3feca6d7aae5a333724401355661afbb",
+                "url": "https://api.github.com/repos/fightbulc/moment.php/zipball/435f3aee1d7da2eb14e53ae93a664812c3cb18a9",
+                "reference": "435f3aee1d7da2eb14e53ae93a664812c3cb18a9",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "translation",
                 "validate"
             ],
-            "time": "2017-01-19T07:57:28+00:00"
+            "time": "2017-04-20T14:35:28+00:00"
         },
         {
             "name": "filp/whoops",
@@ -680,16 +680,16 @@
         },
         {
             "name": "simplon/component_form",
-            "version": "0.0.12",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fightbulc/simplon_component_form.git",
-                "reference": "5ff570e3358699dfcf382ce139b05a0df8ee6c30"
+                "reference": "2625ad48e113bd657c9e64629b5c7751c4423c3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fightbulc/simplon_component_form/zipball/5ff570e3358699dfcf382ce139b05a0df8ee6c30",
-                "reference": "5ff570e3358699dfcf382ce139b05a0df8ee6c30",
+                "url": "https://api.github.com/repos/fightbulc/simplon_component_form/zipball/2625ad48e113bd657c9e64629b5c7751c4423c3d",
+                "reference": "2625ad48e113bd657c9e64629b5c7751c4423c3d",
                 "shasum": ""
             },
             "require": {
@@ -718,20 +718,20 @@
                 }
             ],
             "description": "Assets required for simplon/form",
-            "time": "2017-02-27T17:39:11+00:00"
+            "time": "2017-04-11T12:36:27+00:00"
         },
         {
             "name": "simplon/component_semanticui",
-            "version": "0.0.19",
+            "version": "0.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fightbulc/simplon_component_semanticui.git",
-                "reference": "3e2ff0e73244c9eaa6957aa9694fce8afd721ad8"
+                "reference": "f035e8350f2c2fe68b3c523fda7375df768f49db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fightbulc/simplon_component_semanticui/zipball/3e2ff0e73244c9eaa6957aa9694fce8afd721ad8",
-                "reference": "3e2ff0e73244c9eaa6957aa9694fce8afd721ad8",
+                "url": "https://api.github.com/repos/fightbulc/simplon_component_semanticui/zipball/f035e8350f2c2fe68b3c523fda7375df768f49db",
+                "reference": "f035e8350f2c2fe68b3c523fda7375df768f49db",
                 "shasum": ""
             },
             "require": {
@@ -741,7 +741,7 @@
             "extra": {
                 "component": {
                     "files": [
-                        "jquery/3.1.x/jquery.min.js",
+                        "jquery/3.2.x/jquery.min.js",
                         "semantic-ui/2.2.x/themes/basic/assets/fonts/icons.eot",
                         "semantic-ui/2.2.x/themes/basic/assets/fonts/icons.svg",
                         "semantic-ui/2.2.x/themes/basic/assets/fonts/icons.ttf",
@@ -919,7 +919,7 @@
             ],
             "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
             "homepage": "http://www.semantic-ui.com",
-            "time": "2017-03-21T20:07:24+00:00"
+            "time": "2017-04-19T12:21:58+00:00"
         },
         {
             "name": "simplon/components",
@@ -971,16 +971,16 @@
         },
         {
             "name": "simplon/core",
-            "version": "0.2.7",
+            "version": "0.2.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fightbulc/simplon_core.git",
-                "reference": "c6514570e5f2aee9abe5a44be8f4b4c12d61aa2a"
+                "reference": "e25b3caeab81f8e77a1e1f51bc66faf6e4e9fc31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fightbulc/simplon_core/zipball/c6514570e5f2aee9abe5a44be8f4b4c12d61aa2a",
-                "reference": "c6514570e5f2aee9abe5a44be8f4b4c12d61aa2a",
+                "url": "https://api.github.com/repos/fightbulc/simplon_core/zipball/e25b3caeab81f8e77a1e1f51bc66faf6e4e9fc31",
+                "reference": "e25b3caeab81f8e77a1e1f51bc66faf6e4e9fc31",
                 "shasum": ""
             },
             "require": {
@@ -1030,7 +1030,7 @@
                 "templates",
                 "view"
             ],
-            "time": "2017-04-10T13:03:08+00:00"
+            "time": "2017-04-25T16:15:36+00:00"
         },
         {
             "name": "simplon/device",
@@ -1080,22 +1080,22 @@
         },
         {
             "name": "simplon/form",
-            "version": "2.0.8",
+            "version": "2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fightbulc/simplon_form.git",
-                "reference": "ef83800bf7d4839e5641a5273f72c2b44833107a"
+                "reference": "a246ad936d5657a26389e2b7e2d1592dae7d85e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fightbulc/simplon_form/zipball/ef83800bf7d4839e5641a5273f72c2b44833107a",
-                "reference": "ef83800bf7d4839e5641a5273f72c2b44833107a",
+                "url": "https://api.github.com/repos/fightbulc/simplon_form/zipball/a246ad936d5657a26389e2b7e2d1592dae7d85e2",
+                "reference": "a246ad936d5657a26389e2b7e2d1592dae7d85e2",
                 "shasum": ""
             },
             "require": {
-                "fightbulc/moment": "^1.25",
+                "fightbulc/moment": "^1.26",
                 "php": ">=7.1",
-                "simplon/component_form": "^0.0",
+                "simplon/component_form": "^0.1",
                 "simplon/component_semanticui": "^0.0",
                 "simplon/phtml": "^0.2"
             },
@@ -1129,7 +1129,7 @@
                 "templates",
                 "validation"
             ],
-            "time": "2017-04-08T07:55:33+00:00"
+            "time": "2017-04-19T13:20:59+00:00"
         },
         {
             "name": "simplon/locale",
