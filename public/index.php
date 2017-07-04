@@ -21,6 +21,7 @@ require __DIR__ . '/../vendor/simplon/core/src/autoload.php';
 //
 
 $appContext = new AppContext();
+$localeMiddleware = new LocaleMiddleware(['en', 'en-us']);
 
 //
 // components queue
@@ -37,7 +38,7 @@ $components = [
 
 $middleware = [
     (new ExceptionMiddleware())->setIsProduction(false),
-    new LocaleMiddleware(['en', 'en-us']),
+    $localeMiddleware,
     new RouteMiddleware($components),
 ];
 

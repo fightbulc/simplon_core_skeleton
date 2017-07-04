@@ -2,7 +2,7 @@
 
 namespace App\Components\Contents\Data;
 
-use Simplon\Core\Data\Data;
+use Simplon\Helper\Data\Data;
 
 /**
  * @package App\Components\Contents\Data
