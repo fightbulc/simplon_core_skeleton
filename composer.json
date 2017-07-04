@@ -1,6 +1,6 @@
 {
   "require": {
-    "simplon/core": "^0.2"
+    "simplon/core": "^0.3"
   },
   "config": {
     "component-dir": "public/assets/vendor"
